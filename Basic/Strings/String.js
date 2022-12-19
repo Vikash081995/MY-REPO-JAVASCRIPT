@@ -25,4 +25,12 @@ let string2 = "10";
 
 let newString1 = +string1 + +string2;
 console.log(typeof newString1);
-
+//=============================================
+//to insert quotes in string use backslash '\'
+console.log("i'm the walrus");//i'm the walrus
+//=============================================
+//searching for a substring 
+//=============================================
+let str='widget with id';
+console.log(str.indexOf('widget')); //0
+console.log(str.indexOf('id')); //1
