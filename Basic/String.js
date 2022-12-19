@@ -25,3 +25,4 @@ let string2 = "10";
 
 let newString1 = +string1 + +string2;
 console.log(typeof newString1);
+

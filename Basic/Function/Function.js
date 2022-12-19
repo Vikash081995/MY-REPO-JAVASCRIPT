@@ -28,6 +28,10 @@ function calculate(value) {
   return value * 2.54;
 }
 const width = calculate(wallHeight);
-console.log(width);//203.2
+console.log(width); //203.2
 // --------------------------------------
-
+//a function declaration can be called earlier than it is defined
+sayHi("John");
+function sayHi(name) {
+  console.log(`Hello,${name}`); //Hello,John
+}
