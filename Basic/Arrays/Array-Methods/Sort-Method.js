@@ -1,3 +1,5 @@
+// sort:sort the array in the place 
+// ------------------------------------------------
 const numbers = [5, 9, 1200, 410, 3000];
 numbers.sort();
 console.log(numbers); //[1200, 3000, 410, 5, 9]
@@ -13,7 +15,6 @@ numbers1.sort((a, b) => {
 });
 console.log(numbers1); //[5, 9, 410, 1200, 3000]
 // ---------------------------------------------------
-
 const products = [
   { productId: 1, productName: "p1", price: 300 },
   { productId: 6, productName: "p", price: 400 },

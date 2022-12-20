@@ -1,3 +1,9 @@
+//calls the function for each element of the array and returns the array of results 
+// ---------------------------------------------------------------------------------- 
+// syntax: array.map(function(item,index,array){
+
+// })
+// ---------------------------------------------------------------------------------- 
 const numbers = [3, 4, 5, 6, 2, 7];
 const squareNumber = numbers.map((number, index) => {
   return index;
