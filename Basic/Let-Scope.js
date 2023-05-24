@@ -10,3 +10,9 @@ if (x1 === "global") {
 console.log(x1); //global
 //-----------------------------------------------------------------------------------
 
+if (true) {
+  let fName = "Harshit";
+  console.log(fName); 
+}
+console.log(fName)// uncaught reference error
+//-----------------------------------------------------------------------------------
