@@ -10,8 +10,8 @@ for (let i = 1; i <= num; i++) {
 console.log(total);
 // --------------------------------
 // instead of defining now , use global to resolve issues
-let i=0;
-for(i=0;i<3;i++){
+let i = 0;
+for (i = 0; i < 3; i++) {
   console.log(i);
 }
 console.log(i);
@@ -29,5 +29,12 @@ for (let y = 0; y < 2; y++) {
 // 0 0
 // 1 0
 // 0 1
-// 1 1 
+// 1 1
 // --------------------
+
+let fruits = ["apple", "mango", "grapes", "banana"];
+let fruits2 = [];
+for (let i = 0; i < fruits.length; i++) {
+  fruits2.push(fruits[i].toUpperCase());
+}
+console.log(fruits2); //['APPLE','MANGO','GRAPES','BANANA']

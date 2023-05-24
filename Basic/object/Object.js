@@ -4,11 +4,11 @@ const Person = {
   hobbies: ["guitar", "sleeping", "listening music"]
 };
 console.log(Person);
-console.log(Person.name); //property values are accessible using dot notation
-console.log(Person["age"]);
+console.log(Person.name); //property values are accessible using dot notation//'Harshit'
+console.log(Person["age"]); //22
 
 //add key value pair to objects
-Person["gender"] = "male";
+Person["gender"] = "male"; //{name:'harshit' ,age:22,hobbies:[...],person:Male}
 console.log(Person);
 
 // --------------------------------------------
@@ -47,13 +47,13 @@ const car = {
 console.log(car.colors[0]); //black
 console.log(car.make); //Dodge
 // ---------------------------------------------------
-//can use multiword property names but must be  quoted 
+//can use multiword property names but must be  quoted
 //----------------------------------------------------
-let user ={
-  name:'John',
-  age:30,
-  'like birds':true,
+let user = {
+  name: "John",
+  age: 30,
+  "like birds": true
 };
-user['like birds'] = true
-console.log(user['like birds']);//true
+user["like birds"] = true;
+console.log(user["like birds"]); //true
 //-----------------------------------------------------
