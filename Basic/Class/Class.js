@@ -42,5 +42,9 @@ class Animal {
 }
 const animal1 = new Animal("tom", 2);
 console.log(animal1);
-console.log(animal1.eat);
+// {
+//   "name": "tom",
+//   "age": 2
+// }
+console.log(animal1.eat()); //tom is eating
 // -----------------------------------------------------------

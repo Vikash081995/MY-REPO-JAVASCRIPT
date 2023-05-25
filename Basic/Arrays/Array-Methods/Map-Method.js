@@ -23,3 +23,4 @@ const userNames = users.map((user) => {
 });
 
 console.log(userNames); //['Harsh', 'Mohit', 'Nitish', 'garima']
+// =================================================

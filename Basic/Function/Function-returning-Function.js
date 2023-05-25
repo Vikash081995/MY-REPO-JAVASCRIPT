@@ -1,4 +1,4 @@
-// function returbing Function
+// function returning Function
 
 function myFunc() {
     function Hello() {
@@ -8,4 +8,5 @@ function myFunc() {
   }
   const ans = myFunc();
   console.log(ans()); //hello world
+  //--------------------------------------
   
