@@ -27,3 +27,9 @@ console.log(width);//100
 console.log(height);//200
 console.log(item1);//cake 
 // ---------------------------------------------------------
+//nested destructuring array
+let location =['Atlanta',[33.7490,84.3880]];
+let [place,[lat,lng]]=location;
+console.log(place); //'Atlanta'
+console.log(lat);  //33.7490
+// ---------------------------------------------------------

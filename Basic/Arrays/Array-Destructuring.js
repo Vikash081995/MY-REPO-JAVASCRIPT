@@ -20,3 +20,9 @@ let [one, two, three] = new Set([1, 2, 3]);
 let user = {};
 [user.name, user.surname] = ILyaKantor.split("");
 // ====================================================
+let coords = [51.0, -0.1];
+
+let [lat,lng]= coords;
+console.log(lat);  //51.0
+console.log(lng);  //-0.1
+// ====================================================
