@@ -12,7 +12,12 @@ console.log(x1); //global
 
 if (true) {
   let fName = "Harshit";
-  console.log(fName); 
+  console.log(fName);
 }
-console.log(fName)// uncaught reference error
+console.log(fName); // uncaught reference error
 //-----------------------------------------------------------------------------------
+// variable declared with a let inside the for loop’s clause will be in the scope of the for loop’s block:
+for (let i = 0; i < 5; i++) {
+  console.log(i); //0 1 2 3 4 
+}
+console.log(i); // Uncaught ReferenceError: i is not defined

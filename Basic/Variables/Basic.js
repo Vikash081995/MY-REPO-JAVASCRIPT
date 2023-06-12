@@ -38,5 +38,3 @@ let fp = a => a;
 let n = new Number(1);
 //assign blank object
 let o = new Object();
-
-
