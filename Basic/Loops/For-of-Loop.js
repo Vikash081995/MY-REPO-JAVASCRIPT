@@ -76,4 +76,4 @@ let unique = [];
 for(let word of wordSet) {
     unique.push(word);
 }
-unique // => ["Na", "na", "Batman!"]
+console.log(unique) // => ["Na", "na", "Batman!"]

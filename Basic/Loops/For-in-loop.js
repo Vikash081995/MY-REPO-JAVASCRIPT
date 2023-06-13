@@ -4,6 +4,7 @@ for (let index in fruits) {
   fruits2.push(fruits[index].toUpperCase());
 }
 console.log(fruits2);
+//["APPLE","MANGO","GRAPES","FRUITS"]
 //---------------------------------------------------
 // for in loop works with enumerable object properties
 //---------------------------------------------------
@@ -24,6 +25,9 @@ let List = [4, 5, 6];
 for (let i in List) {
   console.log(i);
 }
+//0
+//1
+//2
 // ---------------------------------------------
 //for-in-loop:to loop over all the keys
 // ---------------------------------------------
