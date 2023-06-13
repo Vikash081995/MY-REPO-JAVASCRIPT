@@ -4,7 +4,7 @@
 let str1 = "widget with id";
 console.log(str1.indexOf("widget")); //0
 console.log(str1.indexOf("id")); //1
-//================================================
+
 //---------------------------------------------------------------
 //str.includes: check if our string includes the value we pass in
 //---------------------------------------------------------------
