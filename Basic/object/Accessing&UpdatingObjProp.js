@@ -53,3 +53,9 @@ let user = {
 user["like birds"] = true;
 console.log(user["like birds"]); //true
 //-----------------------------------------------------
+// Square brackets also provide a way to obtain the property name as the result of any expression – as opposed to a literal string – like from a variable as follows:
+
+let key = "likes birds";
+
+// same as user["likes birds"] = true;
+user[key] = true;
