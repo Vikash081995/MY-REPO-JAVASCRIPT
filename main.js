@@ -1,4 +1,15 @@
-let o = { x: 1 };
-console.log("x" in o); // => true: o has an own property "x"
-console.log("y" in o); // => false: o doesn't have a property "y"
-console.log("toString" in o); // => true: o inherits a toString property
+let user = {
+    name: "John",
+    age: 30
+  };
+  
+  //   Object.keys(user) = ["name", "age"]
+  //   Object.values(user) = ["John", 30]
+  //   Object.entries(user) = [ ["name","John"], ["age",30] ]
+  
+  for (let value of Object.values(user)) {
+    console.log(value);
+  }
+  //John
+//30
+  
