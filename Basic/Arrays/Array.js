@@ -1,37 +1,42 @@
 // arrya definition
-const friendz=['john','peter','susy',45,undefined,null];
+const friendz = ["john", "peter", "susy", 45, undefined, null];
 // ---------------------------------------------
 let fruits = ["apples", "mango", "grapes"];
 console.log(fruits[2]); //grapes
-// ========================================
+// ---------------------------------------------
 let names = ["john", "bebo", "olga", "ben"];
-
 //length
 console.log(names.length); //4
 console.log(names[names.length - 1]); //ben
-
+// ---------------------------------------------
 //concat
 const lastNames = ["pepper", "onion", "banana"];
 const allNames = names.concat(lastNames);
 console.log(allNames); //['john', 'bebo', 'olga', 'ben', 'pepper', 'onion', 'banana']
-
+// ---------------------------------------------
 //unshift:Add the element to the beginning of the array
+// ---------------------------------------------
 allNames.unshift("susy");
 allNames.unshift("susy");
 console.log(allNames); //['susy', 'susy', 'john', 'bebo', 'olga', 'ben', 'pepper', 'onion', 'banana']
 
+// ---------------------------------------------
 //shift:-extract the 1st element of array and returns it
+// ---------------------------------------------
 allNames.shift();
 allNames.shift();
 console.log(allNames); // ['john', 'bebo', 'olga', 'ben', 'pepper', 'onion', 'banana']
 
+// ---------------------------------------------
 //push:-append the element to the end of array
+// ---------------------------------------------
 allNames.push("susy");
 console.log(allNames); //['john', 'bebo', 'olga', 'ben', 'pepper', 'onion', 'banana', 'susy']
-
+// ---------------------------------------------
 //pop:-extract last element and returns it
-allNames.pop('susy');
-console.log(allNames);//['john', 'bebo', 'olga', 'ben', 'pepper', 'onion', 'banana']
+// ---------------------------------------------
+allNames.pop("susy");
+console.log(allNames); //['john', 'bebo', 'olga', 'ben', 'pepper', 'onion', 'banana']
 
 allNames.pop();
 allNames.pop();
@@ -39,10 +44,13 @@ allNames.pop();
 allNames.pop();
 console.log(allNames); //['john', 'bebo', 'olga']
 
+// ---------------------------------------------
 //splice-mutates original array
-const specificNames = allNames.splice(2,1);
-console.log(specificNames);//['olga']
+// ---------------------------------------------
+const specificNames = allNames.splice(2, 1);
+console.log(specificNames); //['olga']
 console.log(allNames); //['john', 'bebo']
+// --------------------------------------------
 
 // -----------------------------------
 // isArrayMethod()
