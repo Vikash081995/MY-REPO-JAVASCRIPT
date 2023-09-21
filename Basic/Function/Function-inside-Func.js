@@ -9,6 +9,5 @@ function app() {
     myFunc();
     console.log(addTwo(4, 6));
   }
-  
   app();
   
