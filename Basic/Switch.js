@@ -7,7 +7,6 @@ switch (dice) {
   case 2:
     console.log("you got two");
     break;
-
   case 3:
     console.log("you got three ");
     break;

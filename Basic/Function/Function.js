@@ -1,4 +1,6 @@
+//------------------------------------------
 //declaring a function with function keyword
+//------------------------------------------
 function Hi() {
   console.log("hi world"); //function body
 }
@@ -35,5 +37,13 @@ sayHi("John");
 function sayHi(name) {
   console.log(`Hello,${name}`); //Hello,John
 }
-
+//------------------------------------
+// A variable declared inside a function is only visible inside that function.
+//------------------------------------
+function showMessage() {
+  let message = "Hello, I'm JavaScript!"; // local variable
+  alert(message);
+}
+showMessage(); // Hello, I'm JavaScript!
+alert(message); // <-- Error! The variable is local to the function
 //------------------------------------
