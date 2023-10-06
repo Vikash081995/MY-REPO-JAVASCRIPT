@@ -1,6 +1,6 @@
 //Object.keys(obj) : returns an array of keys
 //Object.values(obj): returns an array of values
-//Objet.entries(obj):-returns an array of [key,value]
+//Objet.entries(obj): returns an array of [key,value]
 //--------------------------------------------------------------------------
 let user = {
   name: "John",

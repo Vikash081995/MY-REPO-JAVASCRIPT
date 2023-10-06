@@ -1,4 +1,6 @@
+//---------------------------------------------------
 // “method”— is a function-valued property in object
+//---------------------------------------------------
 let harry = {
   name: "Harry Smith",
   salary: 90000,
@@ -58,15 +60,15 @@ function sayHi() {
 user.sayHi = sayHi;
 console.log(user.sayHi); //Hello!
 //-----------------------------------------------------------------
-//this in methods 
+//this in methods
 //The value of this is the object “before dot”, the one used to call the method.
 let user = {
-  name:"John",
-  age:30,
+  name: "John",
+  age: 30,
 
-  sayHi(){
-    console.log(this.name)
+  sayHi() {
+    console.log(this.name);
   }
-}
+};
 
-user.sayHi();  //john
+user.sayHi(); //john

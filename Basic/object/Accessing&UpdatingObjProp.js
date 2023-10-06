@@ -59,3 +59,10 @@ let key = "likes birds";
 
 // same as user["likes birds"] = true;
 user[key] = true;
+//------------------------------------------------------------
+// We can use more complex expressions inside square brackets:
+let fruit = "apple";
+let bag = {
+  [fruit + "Computers"]: 5 // bag.appleComputers = 5
+};
+//------------------------------------------------------------
